@@ -1,0 +1,14 @@
+---
+
+- name: Gather all facts
+  hosts: all
+  become: true
+  gather_facts: true
+
+- hosts: postgresql
+  remote_user: root
+  become: true
+  vars_files:
+    - vars/vars.yml
+  roles:
+    - postgresql

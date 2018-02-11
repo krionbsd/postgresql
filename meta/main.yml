@@ -1,0 +1,20 @@
+# file: postgresql/meta/main.yml
+
+galaxy_info:
+  author: PowerDNS Engineering Team
+  description: PostgreSQL
+  company: PowerDNS.COM BV
+  min_ansible_version: 2.0
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+    - name: EL
+      versions:
+        - 7
+  categories:
+  - database
+  - database:sql
+
+dependencies: []
