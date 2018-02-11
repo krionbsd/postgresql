@@ -1,0 +1,10 @@
+####################
+# DigitalOcean hosts
+####################
+
+db1 ansible_host="138.68.78.17"
+db2 ansible_host="138.68.71.199"
+
+# All the hosts
+[all:vars]
+ansible_become_method = su

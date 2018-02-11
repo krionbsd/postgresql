@@ -5,7 +5,7 @@
   become: true
   gather_facts: true
 
-- hosts: postgresql
+- hosts: all
   remote_user: root
   become: true
   vars_files:
