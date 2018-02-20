@@ -20,7 +20,7 @@
   when: postgresql_users|length > 0
 
 - name: PostgreSQL | Generate SSH public key
-  
+
   user:
     name: "{{postgresql_admin_user}}"
     generate_ssh_key: yes
