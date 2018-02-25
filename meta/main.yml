@@ -1,9 +1,9 @@
 # file: postgresql/meta/main.yml
 
 galaxy_info:
-  author: PowerDNS Engineering Team
+  author: Kirill Ponomarev
   description: PostgreSQL
-  company: PowerDNS.COM BV
+  company: Kirill Ponomarev
   min_ansible_version: 2.0
   platforms:
     - name: Ubuntu
