@@ -708,14 +708,17 @@ postgresql_pgdg_releases:
   redhat: {
       10.1: 1,
       10.2: 2,
+      10.3: 3,
   }
   centos: {
       10.1: 1,
       10.2: 2,
+      10.3: 3,
   }
   oraclelinux: {
       10.1: 1,
       10.2: 2,
+      10.3: 3,
   }
 postgresql_version_terse: "{{ postgresql_version | replace('.', '') }}"
 postgresql_major_release: "{{ postgresql_version | regex_replace('^(.+).([0-9]{1})$','\\1') }}"

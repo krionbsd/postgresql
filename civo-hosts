@@ -1,0 +1,11 @@
+####################
+# CIVO hosts
+####################
+
+db1 ansible_host="185.136.234.160"
+db2 ansible_host="185.136.234.161"
+
+# All the hosts
+[all:vars]
+ansible_ssh_user=civo
+ansible_become_method = su
