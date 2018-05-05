@@ -11,8 +11,9 @@ Vagrant.configure('2') do |config|
     #machine.vm.box = "debian/jessie64"
     #machine.vm.box = "debian/wheezy64"
     #config.vm.box = "centos/7"
-    config.vm.box = "generic/oracle7"
-    #config.vm.box = "centos/6"
+    #config.vm.box = "generic/oracle7"
+    #config.vm.box = "debian/jessie64"
+    config.vm.box = "centos/6"
 
   # Fail if vagrant-vbguest if not installed.
   # vagrant plugin install vagrant-vbguest
